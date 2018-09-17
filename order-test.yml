@@ -16,5 +16,5 @@ eureka:
 #ribbon:
 #  eureka:
 #    enable: true
-evn:
-  test
+env:
+  dev
