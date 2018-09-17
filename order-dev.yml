@@ -10,3 +10,7 @@ spring:
     show-sql: true
 env:
   dev
+eureka:
+  instance:
+    instanceId: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+    prefer-ip-address: true
