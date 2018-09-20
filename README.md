@@ -4,4 +4,8 @@ springcloud项目的配置中心
 name 服务名
 profiles 环境名
 label 分支（branch）
-http://localhost:8080/release/order-dev.yml
+例如：http://localhost:8080/release/order-dev.yml
+
+测试是否已经跟新配置接口：http://localhost:8091/env/print
+
+
