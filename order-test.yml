@@ -17,4 +17,4 @@ eureka:
 #  eureka:
 #    enable: true
 env:
-  dev
+  dev1
