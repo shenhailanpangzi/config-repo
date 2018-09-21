@@ -9,7 +9,7 @@ spring:
   jpa:
     show-sql: true
 env:
-  dev
+  dev1
 eureka:
   instance:
     instanceId: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
