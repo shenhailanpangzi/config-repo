@@ -8,6 +8,11 @@ spring:
     url: jdbc:mysql://localhost/yh?characterEncoding=utf-8&useSSL=false #连接mysql忽略ssl安全协议
   jpa:
     show-sql: true
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 15672
 env:
   dev
 eureka:
