@@ -9,4 +9,4 @@ label 分支（branch）
 测试是否已经跟新配置接口：http://localhost:8091/env/print
 更新配置接口：http://localhost:8080/actuator/bus-refresh
 
-
+无论哪个环境都会加载order.yml 所以可以在order.yml中写公用配置
