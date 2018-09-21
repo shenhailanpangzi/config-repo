@@ -15,5 +15,5 @@ eureka:
     instanceId: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
     prefer-ip-address: true
 girl:
-  name: lili
+  name: she
   age: 18
